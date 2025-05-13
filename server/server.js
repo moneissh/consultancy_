@@ -26,7 +26,8 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",  // You may need to adjust the port if your frontend is on a different port
+    // origin: "http://localhost:5173",
+    origin: "https://consultancy-1-7eo7.onrender.com",  // You may need to adjust the port if your frontend is on a different port
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
